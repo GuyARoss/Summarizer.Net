@@ -139,7 +139,7 @@ Additionally, the NLP Frequency Extractor has support for injectable omitted par
 - [Available Parts of Speech Tags](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
 
-#### Example of Overriting the Omission Property 
+#### Example of Overwriting the Omission Property 
 ```c#
 using Summarizer.Core.KeywordExtractors;
 using Summarizer.Core.Infrastructure.Nlp;
