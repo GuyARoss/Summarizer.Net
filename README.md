@@ -114,7 +114,7 @@ string summarizedText = new SummarizationHandler(new List<ISummarizationLayer> {
 
 ### Keyword Extractors
 -----------------------------------
-Keyword extractors provide injectable keyword extraction/ vectorization methods to summarization classes that extend from ` ISummarizationLayer `.
+Keyword extractors provide injectable keyword extraction/ vectorization methods to summarization classes that extend from ` ISummarizationLayer ` as well as expose a injectable constructor field for `IKeywordExtractor`.
 
 
 ### NLP Frequency Extractor
@@ -236,8 +236,8 @@ IKeywordExtractor extractor = new SupportedExtractor(0.5); // applies intensity 
 - [Nlp Frequency Extractor](#Nlp-Frequency-Extractor)
 - [Regular Frequency Extractor](#Regular-Frequency-Extractor)
 
+## Contributing
 Feel free to contribute by opening a Pull Request or an issue thread. Contributions are always appreciated! 
-
 
 ## License
 Summarizer .Net is [MIT licensed](./LICENSE)
