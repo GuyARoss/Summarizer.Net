@@ -42,7 +42,7 @@ To make use of the nlp operations provided by the .net summarizer, extract the `
 ### Summarizers
 ----------------------------------
 ### Text Rank
-Uses the [TextRank algorithm](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) to vectorize keywords in order by frequency to graph statements with respect to the vectorization to summarize text.
+Uses the [TextRank algorithm](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) to vectorize keywords in order by frequency with respect to the vectorization to summarize text.
 
 #### Basic Usage
 
