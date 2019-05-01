@@ -18,3 +18,12 @@ C:\Users\guyal\Documents\Dev\SummarizationEngine\src\SummarizationEngine.Infrast
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\SummarizationEngine.Infrastructure\obj\Debug\Summarizer.Infrastructure.csproj.CopyComplete
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\SummarizationEngine.Infrastructure\obj\Debug\SummarizationEngine.Infrastructure.dll
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\SummarizationEngine.Infrastructure\obj\Debug\SummarizationEngine.Infrastructure.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\bin\Debug\SummarizationEngine.Infrastructure.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\bin\Debug\SummarizationEngine.Infrastructure.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\bin\Debug\SharpEntropy.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\obj\Debug\Summarizer.Infrastructure.csprojAssemblyReference.cache
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\obj\Debug\Summarizer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\obj\Debug\Summarizer.Infrastructure.csproj.CopyComplete
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\obj\Debug\SummarizationEngine.Infrastructure.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\SummarizationEngine.Infrastructure\obj\Debug\SummarizationEngine.Infrastructure.pdb

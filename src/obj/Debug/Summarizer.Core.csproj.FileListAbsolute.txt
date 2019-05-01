@@ -25,3 +25,14 @@ C:\Users\guyal\Documents\Dev\SummarizationEngine\src\obj\Debug\Summarizer.Core.c
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\obj\Debug\Summarizer.Core.csproj.CopyComplete
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\obj\Debug\Summarizer.Core.dll
 C:\Users\guyal\Documents\Dev\SummarizationEngine\src\obj\Debug\Summarizer.Core.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\obj\Debug\Summarizer.Core.csprojAssemblyReference.cache
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\obj\Debug\Summarizer.Core.csproj.CoreCompileInputs.cache
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\obj\Debug\Summarizer.Core.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\obj\Debug\Summarizer.Core.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\Summarizer.Core.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\Summarizer.Core.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\Newtonsoft.Json.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\SummarizationEngine.Infrastructure.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\SharpEntropy.dll
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\bin\Debug\SummarizationEngine.Infrastructure.pdb
+C:\Users\guyal\Documents\Dev\Summarizer.Net\src\obj\Debug\Summarizer.Core.csproj.CopyComplete

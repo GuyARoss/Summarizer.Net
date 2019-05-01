@@ -32,7 +32,7 @@ namespace Summarizer.Core.Summarizers
         }
         public Dictionary<string, double> Invoke(string statement)
         {            
-            var sentences = SummerizationHelper.ConvertStatementToSentences(statement);
+            var sentences = SummarizationHelper.ConvertStatementToSentences(statement);
 
             var emptyInitializedSentences = sentences
                 .Select(x => new KeyValuePair<string, double>(x, 0.0))

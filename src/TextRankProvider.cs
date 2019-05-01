@@ -67,7 +67,7 @@ namespace Summarizer.Core
 
         protected virtual List<string> ConvertStatementToSentences(string statement)
         {
-            return SummerizationHelper.ConvertStatementToSentences(statement);
+            return SummarizationHelper.ConvertStatementToSentences(statement);
         }
     }
 }

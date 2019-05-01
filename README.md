@@ -76,20 +76,53 @@ string summarizedText = SummarizationHandler(nlpTextRankSummarizer).Invoke(text)
 
 ```
 
-### Synonym-izer
+### Synonymizer
 Uses a synonym based algorithm to replace vectorized keywords into new words, while maintaining the placement of non-vectorized keywords. 
 
 #### Basic Usage
 
 ```c#
 using Summarizer.Core;
-using Summarizer.Core.Summarizer; 
+using Summarizer.Core.Summarizers; 
 
 // ...
 string text; // statement(s) to be summarized
 ISummarizationLayer synonymSummarizer = new Synonymizer();
 
 string summarizedText = SummarizationHandler(synonymSummarizer).Invoke(text);
+
+```
+
+### Node Proximity
+Allows the vectorization to maintain the original sentence order. It is recommend to use this summarizer in conjunction with other summarizers as a post-summarization method.
+
+#### Basic Usage
+
+```c#
+using Summarizer.Core;
+using Summarizer.Core.Summarizers;
+
+string text; // statement(s) to be summarized
+ISummarizationLayer nodeProximitySummarizer = new NodeProximity(text); // requires the text to differ the vectorized indices.
+
+string summarizedText = SummarizationHandler(nodeProximitySummarizer).Invoke(text);
+
+```
+
+#### Adjusting the Rating Weight
+The node proximity summarizer has support for changing how high it should score statement velocity based off of how far both parent & child statement nodes are from the original index structure. 
+
+__Note__: Higher values will saturate all other summarization methods.The recommended range is between 0.2-3
+
+```c#
+using Summarizer.Core;
+using Summarizer.Core.Summarizers;
+
+string text; // statement(s) to be summarized.
+double ratingRate = 1.4;
+ISummarizationLayer nodeProximitySummarizer = new NodeProximity(text, ratingWeight); // initialize weight in the constructor.
+
+string summarizedText = SummarizationHandler(nodeProximitySummarizer).Invoke(text);
 
 ```
 
@@ -237,7 +270,9 @@ IKeywordExtractor extractor = new SupportedExtractor(0.5); // applies intensity 
 - [Regular Frequency Extractor](#Regular-Frequency-Extractor)
 
 ## Contributing
-Feel free to contribute by opening a Pull Request or an issue thread. Contributions are always appreciated! 
+Feel free to contribute by opening a Pull Request or an issue thread.
+
+Contributions are always appreciated! 
 
 ## License
 Summarizer .Net is [MIT licensed](./LICENSE)

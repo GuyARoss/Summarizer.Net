@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace Summarizer.Core
 {
-    public static class SummerizationHelper
+    public static class SummarizationHelper
     {
         public static List<string> ConvertStatementToSentences(string statement)
         {

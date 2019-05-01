@@ -53,6 +53,7 @@
     <Compile Include="KeywordExtractors\NlpFrequencyExtractor.cs" />
     <Compile Include="KeywordExtractors\RandomSelectionExtractor.cs" />
     <Compile Include="KeywordExtractors\RegularFrequencyExtractor.cs" />
+    <Compile Include="Summarizers\NodeProximity.cs" />
     <Compile Include="Summarizers\Synonymizer.cs" />
     <Compile Include="SummerizationHelper.cs" />
     <Compile Include="TextRankProvider.cs" />
