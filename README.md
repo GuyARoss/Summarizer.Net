@@ -112,7 +112,7 @@ string summarizedText = SummarizationHandler(nodeProximitySummarizer).Invoke(tex
 #### Adjusting the Rating Weight
 The node proximity summarizer has support for changing how high it should score statement velocity based off of how far both parent & child statement nodes are from the original index structure. 
 
-__Note__: Higher values will saturate all other summarization methods.The recommended range is between 0.2-3
+__Note__: Higher values will saturate all other summarization methods. The recommended range is between 0.2-3
 
 ```c#
 using Summarizer.Core;
