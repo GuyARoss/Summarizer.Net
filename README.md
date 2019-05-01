@@ -19,7 +19,7 @@ The built in synonymizer uses the [Merriam-Webster Dictionary Api](https://www.d
 ```c#
 using Summarizer.Core;
 using Summarizer.Core.Summarizers;
-using Summarizer.Infrastruture.Dictionary;
+using Summarizer.Infrastructure.Dictionary;
 
 // ...
 string key = "some-key"; // your api key
@@ -94,7 +94,7 @@ string summarizedText = SummarizationHandler(synonymSummarizer).Invoke(text);
 ```
 
 ### Node Proximity
-Allows the vectorization to maintain the original sentence order. It is recommend to use this summarizer in conjunction with other summarizers as a post-summarization method.
+Allows the vectorization to maintain the original sentence order. It is recommended to use this summarizer in conjunction with other summarizers as a post-summarization method.
 
 #### Basic Usage
 
@@ -147,7 +147,7 @@ string summarizedText = new SummarizationHandler(new List<ISummarizationLayer> {
 
 ### Keyword Extractors
 -----------------------------------
-Keyword extractors provide injectable keyword extraction/ vectorization methods to summarization classes that extend from ` ISummarizationLayer ` as well as expose a injectable constructor field for `IKeywordExtractor`.
+Keyword extractors provide injectable keyword extraction/ vectorization methods to summarization classes that extend from ` ISummarizationLayer ` as well as expose an injectable constructor field for `IKeywordExtractor`.
 
 
 ### NLP Frequency Extractor
