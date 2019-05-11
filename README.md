@@ -11,7 +11,7 @@ Import all of the Summarizer Dlls and external dependencies from the [distribute
 - Summarizer.Core
 - Summarizer.Infrastructure
 - Newtonsoft.Json
-- OpenNLPp
+- OpenNLP
 
 #### Synoym-izer Infrastructure Dependency
 The built in synonymizer uses the [Merriam-Webster Dictionary Api](https://www.dictionaryapi.com/). To make use of the api, it is required that you either inject your api key via the synonymizer class constructor (view example below) or rebuilding the `Summarizer.Infrastructure` solution to dll with your api key.
