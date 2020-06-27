@@ -1,9 +1,6 @@
 ## Summarizer .Net 
 Summarizer .Net is a library for performing high-level sentence summarization, that features Natural Language Processing in .Net making sentence summarization extremely easy and versatile. 
 
-Extracted for public use from [Project Orva](https://www.ross-cdn.com/orva).
-
-
 ## Installation
 
 #### Basic Usage Installation
